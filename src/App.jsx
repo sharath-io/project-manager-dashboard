@@ -1,10 +1,10 @@
 import './App.css'
-
+import { Navbar } from './components/Navbar'
 function App() {
 
   return (
     <>
-      <h1 className="text-red-900">Project Managers Dashboard</h1>
+      <Navbar/>
     </>
   )
 }
